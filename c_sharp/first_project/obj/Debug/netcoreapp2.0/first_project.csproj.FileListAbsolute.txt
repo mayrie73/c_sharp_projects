@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/bin/Debug/netcoreapp2.0/first_project.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/bin/Debug/netcoreapp2.0/first_project.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/bin/Debug/netcoreapp2.0/first_project.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/bin/Debug/netcoreapp2.0/first_project.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/bin/Debug/netcoreapp2.0/first_project.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/obj/Debug/netcoreapp2.0/first_project.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/obj/Debug/netcoreapp2.0/first_project.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/obj/Debug/netcoreapp2.0/first_project.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/obj/Debug/netcoreapp2.0/first_project.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/first_project/obj/Debug/netcoreapp2.0/first_project.pdb

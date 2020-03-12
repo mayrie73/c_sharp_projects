@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/bin/Debug/netcoreapp2.0/collection_practice.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/bin/Debug/netcoreapp2.0/collection_practice.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/bin/Debug/netcoreapp2.0/collection_practice.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/bin/Debug/netcoreapp2.0/collection_practice.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/bin/Debug/netcoreapp2.0/collection_practice.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/obj/Debug/netcoreapp2.0/collection_practice.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/obj/Debug/netcoreapp2.0/collection_practice.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/obj/Debug/netcoreapp2.0/collection_practice.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/obj/Debug/netcoreapp2.0/collection_practice.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/collection_practice/obj/Debug/netcoreapp2.0/collection_practice.pdb

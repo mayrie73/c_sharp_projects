@@ -1,0 +1,35 @@
+@model login_registration.Models.Register
+
+<button><a asp-controller="Users" asp-action="Login">Registered Customers Log In</a></button>
+
+<h1>New Customer Registration Form</h1>
+<form asp-controller="Users"  asp-action="Register" method="post">
+    <span asp-validation-for="first_name" class="text-danger"></span>
+    <br>
+    <label asp-for="first_name">First Name:</label>
+    <input class="form-control" type="text"  asp-for="first_name">
+    <br>
+    <span asp-validation-for="last_name" class="text-danger"></span>
+    <br>
+    <label asp-for="last_name">Last Name:</label>
+    <input class="form-control" type="text" asp-for="last_name">
+    <br>
+    <span asp-validation-for="email" class="text-danger"></span>
+    <br>
+     <p class="text-danger">@ViewBag.email</p>
+    <label asp-for="email">Email Address:</label>
+    <input class="form-control" type="email" asp-for="email">
+    <br>
+    <span asp-validation-for="password" class="text-danger"></span>
+    <br>
+    <label asp-for="password">Password:</label>
+    <input class="form-control" type="password" asp-for="password">
+    <br>
+    <span asp-validation-for="password_confirm" class="text-danger"></span>
+    <br>
+    <label asp-for="password_confirm">Password Confirmation:</label>
+    <input class="form-control" type="password" asp-for="password_confirm">
+    <br>
+    <button  type="submit">Register</button><br><br>
+
+</form>

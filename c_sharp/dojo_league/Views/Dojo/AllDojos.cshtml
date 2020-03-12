@@ -1,0 +1,43 @@
+@{
+    ViewData["Title"] = "AllDojos Page";
+}
+@model dojo_league.Models.Dojo
+<div class="container">
+<div class="float-left">
+<h1>All Dojos</h1>
+@{
+    <table border=1 class="table">
+        <tr>
+        <th>Dojo Name</th>
+        </tr>
+    @foreach(var dojo in ViewBag.allDojos)
+    {
+       <tr>
+            <td><a href="dojos/@dojo.id">@dojo.name</a></td>
+       </tr> 
+    }
+    </table>
+}
+</div>
+<div class="float-right">
+<h1>Add A New Dojo </h1>
+<form asp-action="addDojo" asp-controller="Dojo" method="post">
+    <span asp-validation-for="name"></span>
+    <br>
+    <label>Dojo Name</label>
+    <input asp-for="name" class="form-control">
+    <br>
+    <span asp-validation-for="location"></span>
+    <br>
+    <label>Dojo Location</label>
+     <input asp-for="location" class="form-control">
+     <br>
+    <span asp-validation-for="information"></span>
+    <br>
+    <label>Additional Location Information</label>
+    <br>
+    <textarea asp-for="information" class="form-control"></textarea><br><br>
+    <button type="submit">Add New Dojo</button>
+</form>
+</div>
+</div>

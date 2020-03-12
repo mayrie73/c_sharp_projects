@@ -1,0 +1,57 @@
+@{
+    ViewData["Title"] = "Ninja Page";
+}
+@model dojo_league.Models.Ninja
+
+<div class="container">
+<div class="float-left">
+<h1>Registered Ninjas</h1>
+@{
+    <table border=1 class="table">
+        <tr>
+        <th>Ninja Name</th>
+        <th>Home Dojo</th>
+        </tr>
+    @foreach(var ninja in ViewBag.allNinjas)
+    {
+       <tr>
+            <td><a href="ninjas/@ninja.id">@ninja.name</a></td>
+            <td><a href="ninjas/@ninja.id">@ninja.location</a></td>
+       </tr> 
+    }
+    </table>
+}
+</div>
+<div class="float-right">
+<h1>Register A Ninja</h1>
+<form asp-action="addNinja" asp-controller="Ninja">
+    <span asp-validation-for="name"></span>
+    <br>
+    <label>Ninja Name</label>
+    <input asp-for="name" class="form-control">
+    <br>
+    <span asp-validation-for="level"></span>
+    <br>
+    <label>Ninjaing Level(1-10)</label>
+    <input asp-for="level" class="form-control">
+    <br>
+    <span asp-validation-for="location"></span>
+    <br>
+    <label>Dojo Location</label>
+        <select asp-for="location" class="form-control">
+        <option value="">Select</option>
+        <option value="San Jose">San Jose</option>
+        <option value="Seattle">Seattle</option>
+        <option value="Chicago">Chicago</option>
+        <option value="Rogue">Rogue</option>
+        </select><br>
+    <span asp-validation-for="description"></span>
+    <br>
+    <label>Optional Description</label>
+    <br>
+    <textarea asp-for="description" class="form-control"></textarea><br><br>
+    <button type="submit">Register a New Ninja</button>
+    <button><a href="/AllDojos">Add New Location</a></button>
+</form>
+</div>
+</div>

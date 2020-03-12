@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/bin/Debug/netcoreapp2.0/portfolio.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/bin/Debug/netcoreapp2.0/portfolio.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/bin/Debug/netcoreapp2.0/portfolio.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/bin/Debug/netcoreapp2.0/portfolio.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/obj/Debug/netcoreapp2.0/portfolio.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/obj/Debug/netcoreapp2.0/portfolio.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/obj/Debug/netcoreapp2.0/portfolio.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/portfolio/obj/Debug/netcoreapp2.0/portfolio.pdb

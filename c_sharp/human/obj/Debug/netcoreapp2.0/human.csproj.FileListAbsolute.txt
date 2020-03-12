@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/bin/Debug/netcoreapp2.0/human.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/bin/Debug/netcoreapp2.0/human.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/bin/Debug/netcoreapp2.0/human.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/bin/Debug/netcoreapp2.0/human.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/obj/Debug/netcoreapp2.0/human.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/obj/Debug/netcoreapp2.0/human.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/obj/Debug/netcoreapp2.0/human.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/obj/Debug/netcoreapp2.0/human.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/human/obj/Debug/netcoreapp2.0/human.pdb

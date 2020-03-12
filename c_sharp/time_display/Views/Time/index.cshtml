@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Time Display</title>
+    </head>
+    <style>
+        body{
+            background-color: papayawhip;
+            text-align: center;
+            color: purple;
+        }
+    </style>
+    <body>
+        <h1>Time Display</h1>
+        @{
+         DateTime CurrentTime = DateTime.Now;
+         string Date = CurrentTime.ToString("MMMM dd, yyyy");
+         string Time = CurrentTime.ToString("h:mm tt");
+        }
+        <h2>@Date</h2>
+        <h2>@Time</h2>
+    </body>
+    
+</html>

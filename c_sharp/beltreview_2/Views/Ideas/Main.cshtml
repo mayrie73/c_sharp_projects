@@ -1,0 +1,25 @@
+@{
+    ViewData["Title"] = "Main";
+}
+<button><a href="/Logout">Logout</a></button>
+<h1>Welcome @ViewBag.User.Name</h1>
+<hr class="update-hr">
+<form method="post" action="IdeaNew">
+<textarea class="from-control" rows="5" name="IdeaText" type="text"></textarea>
+<br>
+<button type="submit">Post Idea</button>
+</form>
+@if(ViewBag.Ideas.Count>0)
+{
+    foreach(var idea in ViewBag.Ideas)
+    {
+       <span><a href="/Ideas/users/@idea.user.UserId">@idea.user.Alias</a></span> <span> says: @idea.IdeaText</span> 
+       <p><a href="/Ideas/like/@idea.IdeaId">Like</a> | <a href="Ideas/@idea.IdeaId">@idea.Likes.Count people</a> like this |
+       @if(idea.user.UserId==@ViewBag.User.UserId)
+       {
+           <a href="/Ideas/delete/@idea.IdeaId">Delete</a>
+       }
+       </p>
+       <hr class="update-hr">
+    }
+}

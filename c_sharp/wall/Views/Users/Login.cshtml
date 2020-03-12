@@ -1,0 +1,20 @@
+@model wall.Models.Login
+<h1>Login Page</h1>
+<form asp-action="LoggedIn" asp-controller="Users" method="post">
+    @ViewBag.email
+    <span asp-validation-for="email" class="text-danger"></span>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input class="form-control" type="email" asp-for="email">
+    <br>
+    @ViewBag.password
+    <span asp-validation-for="password" class="text-danger"></span>
+    <br>
+    <label>Password:</label>
+    <br>
+    <input class="form-control" type="password" asp-for="password">
+    <br>
+    <button type="submit">Login</button>
+    <button><a href="/">Go Back</a></button>
+</form>

@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "PythonUpdate Page";
+}
+<div class="container">
+    <div>
+        <h1>Form to Update Django Notes</h1>
+        <form>
+            <label>Title:</label>
+            <input class="form-control" type="text" name="title">
+            <br>
+            <label>Description:</label>
+            <textarea class="form-control" name="description"></textarea>
+            <br>
+            <button type="submit" formaction ="/updatePython" formmethod="post" class="button">UPDATE NOTE</button>
+            <button type="submit" formaction ="/PythonNotes" formmethod="get" class="button">SKIP TO NOTES</button>
+        </form>
+    </div>

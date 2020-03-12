@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Idea";
+}
+<button><a href="/BrightIdeas">Bright Ideas</a></button>
+<button><a href="/Logout">Logout</a></button>
+<hr class="update-hr">
+<span><a href="/Ideas/users/@ViewBag.Idea.user.UserId">@ViewBag.Idea.user.Alias</a></span> <span>says:@ViewBag.Idea.IdeaText</span>
+<hr class="update-hr">
+<p>People who liked this post:</p>
+
+<table class="table" border=1>
+    <thead>
+        <tr>
+            <th>Alias</th>
+            <th>Name</th>
+        </tr>
+        
+    </thead>
+    <tbody>
+       @if(ViewBag.Users.Count>0)
+       {
+           foreach(var user in ViewBag.Users)
+           {
+
+               <tr>
+                   <td><a href="/Ideas/users/@user.UserId">@user.Alias</a></td>
+                   <td>@user.Name</td>
+               </tr>
+           }
+       }
+    </tbody>
+</table>

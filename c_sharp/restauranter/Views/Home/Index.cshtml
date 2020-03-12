@@ -1,0 +1,43 @@
+@model restauranter.Models.Review
+<div class="container">
+<h1>Add A Review </h1>
+<form asp-action="addReview" asp-controller="Home" method="post">
+    <span asp-validation-for="ReviewerName"></span>
+    <br>
+    <label asp-for="ReviewerName">Review Name</label>
+    <input asp-for="ReviewerName" class="form-control">
+    <br>
+    <span asp-validation-for="RestaurantName"></span>
+    <br>
+    <label asp-for="RestaurantName">Restaurant Name</label>
+     <input asp-for="RestaurantName" class="form-control">
+     <br>
+    <span asp-validation-for="RestaurantReview"></span>
+    <br>
+    <label asp-for="RestaurantReview">Restaurant Review</label>
+    <br>
+    <textarea asp-for="RestaurantReview" class="form-control"></textarea><br><br>
+    
+    <label asp-for"DateOfVisit">Date Of Visit</label>
+     <input asp-for="DateOfVisit" type="date"class="form-control">
+     <br>
+    <span asp-validation-for="DateOfVisit"></span>
+    <br>
+    <label asp-for"Stars">Rating</label>
+     <input asp-for="Stars" class="form-control">
+     <br>
+    <span asp-validation-for="Stars"></span>
+    <br>
+    <button type="submit">Add New Review</button>
+
+    <button><a href="/Reviews">Go to Reviews</a></button>
+</form>
+</div>
+
+
+
+
+
+
+
+

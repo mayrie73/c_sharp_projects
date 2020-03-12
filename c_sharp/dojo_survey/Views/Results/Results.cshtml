@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Results Page</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+   <body>
+    <div class="container">
+        <h1>Submitted Information</h1>
+        @{
+            <h3>Name: @ViewBag.name</h3>
+            <h3>Location: @ViewBag.location</h3>
+            <h3>Favorite Language: @ViewBag.language</h3>
+            <h3>Comment: @ViewBag.comment</h3>  
+        }
+         <button><a href="/">Back</a></button>
+    </div>
+</body>
+</html>

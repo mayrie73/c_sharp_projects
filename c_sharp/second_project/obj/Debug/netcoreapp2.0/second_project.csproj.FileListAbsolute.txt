@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/bin/Debug/netcoreapp2.0/second_project.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/bin/Debug/netcoreapp2.0/second_project.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/bin/Debug/netcoreapp2.0/second_project.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/bin/Debug/netcoreapp2.0/second_project.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/bin/Debug/netcoreapp2.0/second_project.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/obj/Debug/netcoreapp2.0/second_project.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/obj/Debug/netcoreapp2.0/second_project.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/obj/Debug/netcoreapp2.0/second_project.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/obj/Debug/netcoreapp2.0/second_project.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/second_project/obj/Debug/netcoreapp2.0/second_project.pdb

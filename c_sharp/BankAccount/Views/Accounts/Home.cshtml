@@ -1,0 +1,31 @@
+<div class="container">
+<h1>Welcome, @TempData["userName"]</h1>
+<button><a class="link" asp-action="logout" asp-controller="Users">Logout</a></button>
+@{
+    <h3 class="link">Current balance: @TempData["balance"]</h3>
+}
+
+<form asp-action="CreateTransaction" asp-controller="Accounts">
+  
+    <label>Deposit/Withdraw:</label>
+    <input type="number" step="0.01" placeholder="0.00" name="amount">
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+<table class="table" border=1>
+    <tr>
+        <th>Amount</th>
+        <th>Date</th>
+    </tr>
+    @{
+        @foreach(var transaction in ViewBag.transactions)
+        {
+            <tr>
+               <td>@transaction.Amount</td> 
+               <td>@transaction.Date</td>
+            </tr>
+        }
+    }
+</table>
+</div>

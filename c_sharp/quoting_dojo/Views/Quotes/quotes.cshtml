@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Qoutes Page";
+}
+<body>
+<div class="container">  
+  <h2>All Users Quotes</h2>
+<table class="center" border=1>
+    <tr>
+        <th>Name</th>
+        <th>Quote</th>
+        <th>Created At</th>
+    </tr>
+
+        @foreach(var user in ViewBag.Users)
+        {
+        <tr>
+            <td>@user["name"]</td>
+            <td>@user["quote"]</td>
+            <td>@user["created_at"]</td>
+        </tr>
+        }
+    </table>
+</div>
+</body>

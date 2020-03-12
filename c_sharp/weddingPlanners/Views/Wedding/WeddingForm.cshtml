@@ -1,0 +1,25 @@
+@model weddingPlanners.Models.WeddingViewModel
+@using weddingPlanners.Models
+<a asp-controller="User" asp-action="Logout">Logout</a>
+<a href="Dashboard">HOME</a>
+
+<form asp-controller="Wedding" asp-action="AddWedding" method= "post" >
+    <label asp-for="SpouseOne"></label>
+    <input asp-for="SpouseOne"/>
+    <span class="error" asp-validation-for="SpouseOne"></span>
+
+    <label asp-for="SpouseTwo"></label>
+    <input asp-for="SpouseTwo" />
+    <span class="error" asp-validation-for="SpouseTwo" ></span>
+
+    <label asp-for="Date"></label>
+    <input asp-for="Date"/>
+    <span class="error" asp-validation-for="Date"></span>
+
+    <label asp-for="Address"></label>
+    <input asp-for="Address"/>
+    <span class="error" asp-validation-for="Address" ></span>
+    <br>
+    <button class="button-primary" type="submit" >create</button>
+
+</form>

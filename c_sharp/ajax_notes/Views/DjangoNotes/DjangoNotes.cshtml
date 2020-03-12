@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "DjangoNotes Page";
+}
+<body>
+<div class="container">
+  <h2>All Django Notes</h2>
+<table class="center" border=1>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Created At</th>
+        <th>Delete</th>
+        <th>Update</th>
+     
+    </tr>
+
+        @foreach(var note in ViewBag.DjangoNotes)
+        {
+
+        <tr>
+            <td>@note["title"]</td>
+            <td>@note["description"]</td>
+            <td>@note["created_at"]</td>
+            <td><button><a href="deleteDjango/@note["id"]">Delete</a></button></td>
+            <td><button><a href="updateDjango/@note["id"]">Update</a></button></td>
+            
+           
+          
+          
+        </tr>
+        }
+    </table><br><br>
+   
+    <button><a href="/">Go Back</a></button>
+    
+        
+</div>
+</body>

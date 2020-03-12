@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div>
+        <h1>Django Notes</h1>
+        <form>
+            <label>Title:</label>
+            <input class="form-control" type="text" name="title">
+            <br>
+            <label>Description:</label>
+            <textarea class="form-control" name="description"></textarea>
+            <br>           
+            <button type="submit" formaction ="/createDjango" formmethod="post" class="button">ADD NOTE</button>
+            <button type="submit" formaction ="/DjangoNotes" formmethod="get" class="button">SKIP TO NOTES</button>
+        </form>
+    </div>
+     <div>
+        <h1>Python Notes</h1>
+        <form>
+            <label>Title:</label>
+            <input class="form-control" type="text" name="title">
+            <br>
+            <label>Description:</label>
+            <textarea class="form-control" name="description"></textarea>
+            <br>
+            <button type="submit" formaction ="/createPython" formmethod="post" class="button">ADD NOTE</button>
+            <button type="submit" formaction ="/PythonNotes" formmethod="get" class="button">SKIP TO NOTES</button>
+        </form>
+    </div>
+   
+</div> 

@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/bin/Debug/netcoreapp2.0/random_passcode.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/bin/Debug/netcoreapp2.0/random_passcode.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/bin/Debug/netcoreapp2.0/random_passcode.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/bin/Debug/netcoreapp2.0/random_passcode.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/bin/Debug/netcoreapp2.0/random_passcode.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/obj/Debug/netcoreapp2.0/random_passcode.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/obj/Debug/netcoreapp2.0/random_passcode.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/obj/Debug/netcoreapp2.0/random_passcode.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/obj/Debug/netcoreapp2.0/random_passcode.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/random_passcode/obj/Debug/netcoreapp2.0/random_passcode.pdb

@@ -1,0 +1,35 @@
+@model woods.Models.Trail
+<h1>Add a new trail</h1>
+<form asp-action="createTrail" asp-controller="Home">
+    <span asp-validation-for="name"></span>
+    <br>
+    <label>Name:</label>
+    <input asp-for="name" class="form-control">
+    <br>
+    <span asp-validation-for="description"></span>
+    <br>
+    <label>Description:</label>
+    <input asp-for="description" class="form-control">
+    <br>
+    <span asp-validation-for="length"></span>
+    <br>
+    <label>Length:</label>
+    <input asp-for="length" class="form-control">
+    <br>
+    <span asp-validation-for="elevationChange"></span>
+    <br>
+    <label>Elevation Change:</label>
+    <input asp-for="elevationChange" class="form-control">
+    <br>
+    <span asp-validation-for="latitude"></span>
+    <br>
+    <label>Latitude:</label>
+    <input asp-for="latitude" class="form-control">
+    <br>
+    <span asp-validation-for="longitude"></span>
+    <br>
+    <label>Longitude:</label>
+    <input asp-for="longitude" class="form-control">
+    <br>
+    <button type="submit">Add New trail</button>
+</form>

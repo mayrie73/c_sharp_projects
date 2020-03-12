@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Dojodachi Game</h1>
+        @{
+            <h3>Happiness: @TempData["happiness"]  |  Fullness: @TempData["fullness"]  |  Energy: @TempData["energy"]  |  Meals: @TempData["meals"]</h3>
+            <h5>@TempData["message"]</h5>
+        }
+        @{
+            if(TempData["gameStatus"] == "playing")
+            {
+                <a href="/feed"><button>Feed</button></a>
+                <a href="/play"><button>Play</button></a>
+                <a href="/work"><button>Work</button></a>
+                <a href="/sleep"><button>Sleep</button></a>
+            }
+            else if(TempData["gameStatus"] == "over")
+            {
+                <a href="/restart"><button>Restart</button></a>
+            }
+        }
+
+    </div>
+</body>
+
+</html>

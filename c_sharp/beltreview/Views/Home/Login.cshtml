@@ -1,0 +1,22 @@
+@model beltreview.Models.LoginViewModel
+@using beltreview.Models
+<h1>Login</h1>
+<button><a class="link" asp-action="Index" asp-controller="Home"> Dont have an account? Register</a></button>
+<form asp-controller="Home" asp-action="ProcessLogin" method="post">
+    @ViewBag.email
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input class="form-control" type="Email" asp-for="Email">
+    <br>
+    @ViewBag.password
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br>
+    <label>Password:</label>
+    <br>
+    <input class="form-control" type="Password" asp-for="Password">
+    <br>
+    <button type="submit">Login</button>
+    <button><a href="/">Go Back</a></button>
+</form>

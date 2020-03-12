@@ -1,0 +1,29 @@
+@model UserDashboard.Models.User
+<h1>Manage Users</h1>
+<table class="table" border=1>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th> 
+        <th>Email</th>
+        <th>Created At</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+      <tbody>
+        @foreach(var user in ViewBag.AllUsers) {
+        <tr>
+        <td>@user.UserId</td> 
+        <td><a href="Wall/@user.UserId">@user.FirstName @user.LastName</a></td>
+        <td>@user.Email</td>
+        <td>@user.CreatedAt.ToString("MMMM d, yyyy")</td>
+    
+        <td><a href="EditUser/@user.UserId">Edit</a>  | <a href="DeleteUser/@user.UserId">Delete</a></td>                    
+        
+        </tr>
+        }
+    </tbody>
+</table>   
+    <button><a href="/addnew">Add New User</a></button>
+    <button><a asp-controller="Users" asp-action="logout">LogOut</a></button>
+

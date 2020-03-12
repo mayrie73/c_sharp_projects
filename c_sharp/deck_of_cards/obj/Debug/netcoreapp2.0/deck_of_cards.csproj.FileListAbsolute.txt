@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/bin/Debug/netcoreapp2.0/deck_of_cards.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/deck_of_cards/obj/Debug/netcoreapp2.0/deck_of_cards.pdb

@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/bin/Debug/netcoreapp2.0/calling_card.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/bin/Debug/netcoreapp2.0/calling_card.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/bin/Debug/netcoreapp2.0/calling_card.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/bin/Debug/netcoreapp2.0/calling_card.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/bin/Debug/netcoreapp2.0/calling_card.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/obj/Debug/netcoreapp2.0/calling_card.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/obj/Debug/netcoreapp2.0/calling_card.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/obj/Debug/netcoreapp2.0/calling_card.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/obj/Debug/netcoreapp2.0/calling_card.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/calling_card/obj/Debug/netcoreapp2.0/calling_card.pdb

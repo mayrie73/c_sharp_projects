@@ -1,0 +1,65 @@
+body {
+    background-color: papayawhip;
+    color:salmon;
+    background-image: url('./userdash1.jpg'); 
+    background-attachment: fixed;
+    background-size: cover;  
+}
+
+button {
+    background-color:papayawhip;
+    border: black 2px solid;
+    color:salmon;
+    border-radius: 5px;
+}
+
+a {
+    color:salmon;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    background-color: papayawhip;
+    border:palevioletred 2px solid;
+}
+
+input[type=submit] {
+    background-color: papayawhip;
+    border: palevioletred 2px solid;
+    color: salmon;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 20px;
+    width:1000px;
+    display: block;
+    
+}
+
+.float-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px; 
+    margin-right: 200px;
+}
+
+.float-right {
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+.text-danger{
+    color:red;
+}
+Body {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}

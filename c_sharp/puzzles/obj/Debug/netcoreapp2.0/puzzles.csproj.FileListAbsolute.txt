@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/bin/Debug/netcoreapp2.0/puzzles.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/puzzles/obj/Debug/netcoreapp2.0/puzzles.pdb

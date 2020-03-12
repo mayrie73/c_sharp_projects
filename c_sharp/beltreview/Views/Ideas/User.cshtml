@@ -1,0 +1,15 @@
+
+@{
+    ViewData["Title"] = "User";
+}
+
+<button><a href="/BrightIdeas">Bright Ideas</a></button>
+<button><a href="/Logout">Logout</a></button>
+<h3>User Profile</h3>
+<hr class="update-hr">
+<p>Name:@ViewBag.User.Name</p>
+<p>Alias:@ViewBag.User.Alias</p>
+<p>Email:@ViewBag.User.Email</p>
+<hr class="update-hr">
+<p>Total Number of Posts: @ViewBag.User.Ideas.Count</p>
+<p>Total Number of Likes: @ViewBag.User.Likes.Count</p>

@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/bin/Debug/netcoreapp2.0/simple_crud.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/bin/Debug/netcoreapp2.0/simple_crud.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/bin/Debug/netcoreapp2.0/simple_crud.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/bin/Debug/netcoreapp2.0/simple_crud.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/bin/Debug/netcoreapp2.0/simple_crud.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/obj/Debug/netcoreapp2.0/simple_crud.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/obj/Debug/netcoreapp2.0/simple_crud.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/obj/Debug/netcoreapp2.0/simple_crud.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/obj/Debug/netcoreapp2.0/simple_crud.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/simple_crud/obj/Debug/netcoreapp2.0/simple_crud.pdb

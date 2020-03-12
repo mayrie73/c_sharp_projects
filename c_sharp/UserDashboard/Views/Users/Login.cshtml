@@ -1,0 +1,23 @@
+@model UserDashboard.Models.LoginViewModel
+@using UserDashboard.Models
+<h1>Login</h1>
+<button><a class="link" asp-action="Index" asp-controller="Users">Don't have an account? Register</a></button>
+    <form asp-controller="Users" asp-action="ProcessLogin" method="post">
+    @ViewBag.email
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br>
+    <label>Email:</label>
+    <br>
+    <input class="form-control" type="Email" asp-for="Email">
+    <br>
+    @ViewBag.password
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br>
+    <label>Password:</label>
+    <br>
+    <input class="form-control" type="Password" asp-for="Password">
+    <br>
+    <button type="submit">Login</button>
+
+    <button><a href="/">Go Back</a></button>
+</form>

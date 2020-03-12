@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/bin/Debug/netcoreapp2.0/fundamentals_assignment.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/bin/Debug/netcoreapp2.0/fundamentals_assignment.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/bin/Debug/netcoreapp2.0/fundamentals_assignment.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/bin/Debug/netcoreapp2.0/fundamentals_assignment.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/bin/Debug/netcoreapp2.0/fundamentals_assignment.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/obj/Debug/netcoreapp2.0/fundamentals_assignment.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/obj/Debug/netcoreapp2.0/fundamentals_assignment.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/obj/Debug/netcoreapp2.0/fundamentals_assignment.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/obj/Debug/netcoreapp2.0/fundamentals_assignment.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/fundamentals_assignment/obj/Debug/netcoreapp2.0/fundamentals_assignment.pdb

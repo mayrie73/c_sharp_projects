@@ -1,0 +1,19 @@
+@using weddingPlanners.Models
+@model weddingPlanners.Models.LoginViewModel
+
+
+<h2>Login</h2>
+    <form asp-controller="User" asp-action="ProcessLogin" method="post">
+        <label asp-for="email"></label>
+        <input asp-for="email"/>
+        <span class="error" asp-validation-for="email"></span>
+        
+        <label asp-for="password"></label>
+        <input asp-for="password"/>
+        <span class="error" asp-validation-for="password"></span>
+        <br>
+        <button class="button-primary" type="submit">LOGIN</button>
+        
+    </form>
+            <a href="/"><button class="btn btn-default" style="float: right">TO REGISTER</button></a>
+

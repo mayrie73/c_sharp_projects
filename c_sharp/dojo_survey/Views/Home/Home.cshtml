@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+    <div class="container">
+    <h1>Survey Form</h1>
+    <form action="/submit" method="post">
+        <div>
+            <label>Name:</label>
+            <input  type="text" name="name">
+        </div><br>
+        <div>
+            <label>Location:</label>
+            <select name="location">
+                <option value="San Jose">San Jose</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Dallas">Dallas</option>
+                <option value="D.C.">D.C.</option>
+            </select>
+        </div><br>
+       <div>
+            <label>Favorite Language:</label>
+            <select  name="language">
+                <option value="Mean">Mean</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+            </select>
+       </div><br>
+       <div>
+            <label>Comment (optional):</label>
+            <textarea name="comment"></textarea>
+       </div><br>
+       
+            <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+@{
+    ViewData["Title"] = "PythonNotes Page";
+}
+<body>
+<div class= "container">
+<h2>All Python Notes</h2>
+<table class="center" border=1>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Created At</th>
+        <th>Update</th>
+        <th>Delete</th>
+     
+    </tr>
+
+        @foreach(var note in ViewBag.PythonNotes)
+        {
+    
+        <tr>
+            <td>@note["title"]</td>
+            <td>@note["description"]</td>
+            <td>@note["created_at"]</td>
+            <td><button><a href="updatePython/@note["id"]">Update</a></button></td>
+            <td><button><a href="deletePython/@note["id"]">Delete</a></button></td>
+               
+        </tr>
+        
+        }
+    </table><br><br>
+    <button><a href="/">Go Back</a></button>
+ 
+
+</div>
+</body>

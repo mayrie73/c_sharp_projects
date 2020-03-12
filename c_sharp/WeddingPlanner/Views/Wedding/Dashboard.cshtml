@@ -1,0 +1,38 @@
+@model WeddingPlanner.Models.Wedding
+<h3>Welcome to the Wedding Planner, @ViewBag.currUser.FirstName, @ViewBag.currUser.LastName </h3>
+
+<table class="table" border=1>
+    <thead>
+        <tr>
+            <th>Wedding</th>
+            <th>Date</th>
+            <th>Guests</th>
+            <th>RSVP</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var wedding in ViewBag.AllWeddings) {
+            <tr>
+                <td><a asp-controller= "Wedding" asp-action= "Wedding" asp-route-Id=@wedding.WeddingId>@wedding.Bride & @wedding.Groom</a></td>
+                <td>@wedding.Date.ToString("MMM d, yyyy")</td>
+                <td>@wedding.Guests.Count</td>
+                
+                @if(ViewBag.Attending.Contains(@wedding.WeddingId)){
+                    
+                    <td><a asp-controller="Wedding" asp-action="UnRSVP" asp-route-Id=@wedding.WeddingId>UnRSVP</a></td>   
+                }else {
+                    <td><a asp-controller="Wedding" asp-action="RSVP" asp-route-Id=@wedding.WeddingId >RSVP</a></td>
+                }
+                <td>
+                @if(wedding.UserId == ViewBag.currUser.UserId ){
+                <a asp-controller="Wedding" asp-action="delWedding" asp-route-Id=@wedding.WeddingId>Delete </a> 
+                <a asp-controller="Wedding" asp-action= "UpdateWedding" asp-route-Id=@wedding.WeddingId> Update </a>                                
+                }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<button><a asp-controller="Wedding" asp-action="WeddingForm">New Wedding</a></button>
+<button><a asp-controller="Users" asp-action="logout">LogOut</a></button>

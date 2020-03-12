@@ -1,0 +1,9 @@
+body{
+    background-color: pink;
+    background-image: url('./wedding.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    background-color: aliceblue;
+}

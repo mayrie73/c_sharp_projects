@@ -1,0 +1,33 @@
+@model beltreview.Models.RegisterViewModel
+@using beltreview.Models
+<h1>Registration Form</h1>
+<button><a class="link" asp-action="Login" asp-controller="Home">Already have an account? Login</a></button>
+<form asp-controller="Home" asp-action="Register" method="post">
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br>
+    <label asp-for="Name">Name:</label>
+    <input class="form-control" type="text"  asp-for="Name">
+    <br>
+    <span asp-validation-for="Alias" class="text-danger"></span>
+    <br>
+    <label asp-for="Alias">Alias:</label>
+    <input class="form-control" type="text" asp-for="Alias">
+    <br>
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br>
+     <p class="text-danger">@ViewBag.Email</p>
+    <label asp-for="Email">Email Address:</label>
+    <input class="form-control" type="Email" asp-for="Email">
+    <br>
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br>
+    <label asp-for="Password">Password:</label>
+    <input class="form-control" type="Password" asp-for="Password">
+    <br>
+    <span asp-validation-for="PasswordConfirmation" class="text-danger"></span>
+    <br>
+    <label asp-for="PasswordConfirmation">Password Confirmation:</label>
+    <input class="form-control" asp-for="PasswordConfirmation">
+    <br>
+    <button type="submit">Register</button><br><br>              
+</form>

@@ -1,0 +1,10 @@
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/bin/Debug/netcoreapp2.0/time_display.deps.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/bin/Debug/netcoreapp2.0/time_display.runtimeconfig.dev.json
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/bin/Debug/netcoreapp2.0/time_display.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/bin/Debug/netcoreapp2.0/time_display.pdb
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/obj/Debug/netcoreapp2.0/time_display.csproj.CoreCompileInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfoInputs.cache
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/obj/Debug/netcoreapp2.0/time_display.AssemblyInfo.cs
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/obj/Debug/netcoreapp2.0/time_display.dll
+/Users/maryjones/Desktop/github/coding_dojo/c_sharp/time_display/obj/Debug/netcoreapp2.0/time_display.pdb

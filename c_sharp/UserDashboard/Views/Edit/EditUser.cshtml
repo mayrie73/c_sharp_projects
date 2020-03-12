@@ -1,0 +1,48 @@
+@model UserDashboard.Models.RegisterViewModel
+
+<div class="EditInfo">
+<div>
+    <h3 class="update-title">Edit Information</h3>
+    <hr class="update-hr">
+<form asp-controller="Edit" asp-action="EditUser" method="post">
+    <span asp-validation-for="FirstName" class="text-danger"></span>
+    <br>
+    <label asp-for="FirstName">First Name:</label>
+    <input class="form-control" asp-for="FirstName">
+    <br>
+    <span asp-validation-for="LastName" class="text-danger"></span>
+    <br>
+    <label asp-for="LastName">Last Name:</label>
+    <input class="form-control" asp-for="LastName">
+    <br>
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br>
+     <p class="text-danger">@ViewBag.Email</p>
+    <label asp-for="Email">Email Address:</label>
+    <input class="form-control" asp-for="Email">
+    <br>
+    <button type="submit" >Update User</button>
+</form>
+</div>
+<div>
+    <div class="ChangePassword">
+    <h3 class="update-title">Change Password</h3>
+    <hr class="update-hr">
+   <form asp-controller="Edit" asp-action="UpdatePassword" method="post">
+    <span asp-validation-for="Password" class="text-danger"></span>
+    <br>
+    <label asp-for="Password">Password:</label>
+    <input class="form-control" type="Password" asp-for="Password">
+    <br>
+    <span asp-validation-for="PasswordConfirmation" class="text-danger"></span>
+    <br>
+    <label asp-for="PasswordConfirmation">Password Confirmation:</label>
+    <input class="form-control" asp-for="PasswordConfirmation">
+    <br>
+    <button type="submit" >Update Password</button>
+    </form>
+</div>
+</div>
+
+<h4>@ViewBag.Errors</h1>
+<h4>@ViewBag.Success</h1>

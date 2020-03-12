@@ -1,0 +1,18 @@
+@model weddingPlanners.Models.Wedding
+@{
+    string weddingTitle = @Model.SpouseOne + " and " + @Model.SpouseTwo + "'s";
+}
+<h2>@weddingTitle Wedding</h2>
+<a asp-controller="Wedding" asp-action="Dashboard" >Dashboard</a> |
+<a asp-controller="User" asp-action="Logout" >Logout</a> |
+
+<h3>Date: @Model.Date.ToString("MMM d, yyyy")</h3>
+<h3>Guests:  </h3>
+<ul>
+    @foreach ( var guestConnection in @Model.Guests) {
+        <li>@guestConnection.Guest.first_name, @guestConnection.Guest.last_name</li>
+    }
+</ul>
+    <div class="one-half column">
+        <img src=@ViewBag.mapstring >
+    </div>

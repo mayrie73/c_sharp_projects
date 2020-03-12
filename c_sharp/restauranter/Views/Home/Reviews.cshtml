@@ -1,0 +1,32 @@
+@model restauranter.Models.Review
+<div class="container">
+<h1>All Reviews</h1>
+@{
+    <table border=1 class="table">
+        <tr>
+        <th>Review Name</th>
+        <th>Restaurant Name</th>
+        <th>Restaurant Review</th>
+        <th>Date of Visit</th>
+        <th>Rating</th>
+        <th>Action</th>
+        </tr>
+    @foreach(var review in ViewBag.reviews)
+    {
+       <tr>
+            <td>@review.ReviewerName</td>
+            <td>@review.RestaurantName</td>
+            <td>@review.RestaurantReview</td>
+            <td>@review.DateOfVisit</td>
+            <td>@review.Stars</td>
+            <td><button><a href="delete/@review.ReviewId">DELETE</a></button></td>
+        
+          
+        
+           
+            
+       </tr> 
+    }
+    </table>
+}
+</div>
